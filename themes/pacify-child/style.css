@@ -26,6 +26,36 @@ blockquote {
     
 }
 
+.entry-title {
+font-size: 1.2em;
+}
+
+.entry-meta {
+    font-size: .7em;
+    line-height: 1.2em;
+}
+
+.entry-content {
+    font-size: .9em;
+}
+
+.entry-footer {
+    display:none;
+}
+
+.post {
+    padding: 8px 15px;
+}
+
+.hentry { margin: 0 0 1em;}
+
+.posted-on {
+    background-size: 1.3em;
+}
+
+
+
+
 /* 4.0 Forms
 */
 .username input,

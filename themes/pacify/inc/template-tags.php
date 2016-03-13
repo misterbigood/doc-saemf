@@ -89,9 +89,9 @@ function pacify_posted_on() {
 	);
 
 	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
-			echo '<span class="comments-link">';
+			/*echo '<span class="comments-link">';
 		comments_popup_link( __( 'Leave a comment', 'pacify' ), __( '1 Comment', 'pacify' ), __( '% Comments', 'pacify' ) );
-		echo '</span>';
+		echo '</span>';*/
 
 }
 endif;

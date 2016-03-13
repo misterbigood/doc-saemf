@@ -91,4 +91,14 @@ function childtheme_custom_login() {
  echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/login.css" />';
 }
 
-add_action('login_head', 'childtheme_custom_login');?>
+add_action('login_head', 'childtheme_custom_login');
+
+/* Récupérer le nom du template courant utilisé, permet de l'afficher dans le header, pratique en dev.
+ * 
+ */
+function define_current_theme_file( $template ) {
+    $GLOBALS['current_theme_template'] = basename($template);
+ 
+    return $template;
+}
+add_action('template_include', 'define_current_theme_file', 1000);
