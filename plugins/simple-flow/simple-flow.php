@@ -149,3 +149,17 @@ function simple_flow_notification($post_id) {
     wp_mail($reviewer->user_email, 'Un article a été mis en relecture', $message);
 }
 
+add_filter('manage_users_columns', 'pippin_add_user_id_column');
+function pippin_add_user_id_column($columns) {
+    $columns['groupe'] = 'Groupe';
+    return $columns;
+}
+ 
+add_action('manage_users_custom_column',  'pippin_show_user_id_column_content', 10, 3);
+function pippin_show_user_id_column_content($value, $column_name, $user_id) {
+    $user_group = get_user_meta($user_id,'_user_group',true);
+    $groups_elements = get_option('simple_flow_groups');
+	if ( 'groupe' == $column_name )
+		return $groups_elements[$user_group]['group'];
+    return $value;
+}
