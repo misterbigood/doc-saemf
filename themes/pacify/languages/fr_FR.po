@@ -1,0 +1,271 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-05-24 16:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.7.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Désolé, la page demandée n'a pas été trouvée"
+
+#: 404.php:14
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Il semble qu'aucune page ne soit disponible à cette adresse. Essayer l'un "
+"des liens ci-dessous ou une recherche."
+
+#: archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr "Jour: %s"
+
+#: archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr "Mois: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr "Année: %s"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galeries"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Images"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Vidéos"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Citations"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Liens"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Statuts"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Audios"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Discussions"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Archives"
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Précédents commentaires"
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires suivants &rarr;"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêts à soumettre votre premier article? <a href=\"%1$s\">Commencez ici</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais aucun résultat ne correspond à l'expression recherchée. Essayez "
+"avec des mots clés différents..."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Il semble que nous ne trouvions pas ce que vous cherchez."
+
+#: content-page.php:18 content-single.php:21 content.php:33
+msgid "Pages:"
+msgstr "Pages"
+
+#: content-page.php:25 inc/template-tags.php:126
+msgid "Edit"
+msgstr "Editer"
+
+#: content.php:26
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Poursuivre la lecture %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:45 header.php:41
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:80
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:90
+msgid "Footer1"
+msgstr "Pied de page 1"
+
+#: functions.php:92 functions.php:101 functions.php:110
+msgid "Appears in the footer area"
+msgstr "Apparaît dans le pied de page"
+
+#: functions.php:99
+msgid "Footer2"
+msgstr "Pied de page 2"
+
+#: functions.php:108
+msgid "Footer3"
+msgstr "Pied de page 3"
+
+#: functions.php:165 functions.php:177
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:167
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:82
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/template-tags.php:87
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#: inc/template-tags.php:93 inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#: inc/template-tags.php:93 inc/template-tags.php:122
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/template-tags.php:93 inc/template-tags.php:122
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:108 inc/template-tags.php:114
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:110
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Dans la catégorie %1$s"
+
+#: inc/template-tags.php:116
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Marqué %1$s"

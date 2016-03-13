@@ -1,0 +1,942 @@
+/*
+Theme Name: blackcolors
+Theme URI: http://antsanchez.com/blackcolors-wordpress-theme/
+Author: Antonio Sanchez
+Author URI: http://antsanchez.com
+Description: Blackcolors is a highly customizable theme with a responsive multicolumn design working with Masonry. You have total control of your theme, changing easily the colors, icons, fonts and some other items through the Customizer. It is SEO friendly as it incorporates microformats and tries to use as few scripts and styles as possible to increase the loading speed. It has support for the Breadcrumbs of YOAST SEO plugin. The theme is translated to Spanish, German, Italian, Portuguese and French.
+Version: 3.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, purple, yellow, red, orange, one-column, two-columns, three-columns, four-columns, left-sidebar, fluid-layout, flexible-header, responsive-layout, custom-background, custom-header, custom-menu, featured-images, post-formats, threaded-comments, translation-ready, microformats, theme-options, rtl-language-support
+Text Domain: blackcolors
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* = Contents:
+ *
+ * 1. WordPress Core (Commons WP & Theme CSS tags)
+ * 2. Links 
+ * 3. Banner (header)
+ * 4. Head Menu
+ * 5. Sidebar
+ * 6. Responsive Design Layout 
+ * 7. Post
+ * 8. Galleries
+ * 9. Attachment Page for images
+ * 10. Comments
+ * 12. Social
+ * 13. Foot Note
+ *
+-------------------------------------------------------------- */
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.bypostauthor, .fecha{
+    float:left;
+    display:inline-block;
+    margin:0 0 0 0.5em;
+    padding:5px 0 5px 0;
+}
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 4px;
+    text-align: center;
+    border-radius:5px;
+}
+
+.wp-caption.alignnone{
+    clear:both;
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright{
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption.aligncenter{
+    clear:both;
+}
+
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0 auto;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+    border:1px solid black;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+    font-style:italic;
+}
+
+table{
+    margin:10px;
+    padding:0;
+    border:1px solid;
+    border-radius: 5px;
+}
+
+thead th{
+    text-align:center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+td{
+    padding:0.5em;
+}
+
+pre{
+    overflow:auto;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin-left:10%;
+    padding:0.25em 0.25em 0.25em 2em;
+    background-color:white;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    border-radius:5px;
+}
+
+blockquote:before{
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+cite{
+    width:80%;
+    margin-left:10%;
+}
+ 
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+/* End of WordPress Core
+-------------------------------------------------------------- */
+
+/* Main elements
+-------------------------------------------------------------- */
+body{
+´    margin:0;
+    padding:0;
+    min-height:100%;
+    background-color:#34495e;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.9em;
+}
+
+#main{
+    clear:both;
+}
+
+.sup{
+    clear:both;
+    visibility:hidden;
+}
+
+#barra-superior a, #barra-superior a:link, #barra-superior a:visited{
+    color: white;
+}
+
+#up_buttom{
+    position:fixed;
+    bottom:2.5em;
+    right:1em;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5em 1em 0.5em 1em;
+	z-index: 100;
+}
+
+/* = Links
+-------------------------------------------------------------- */
+
+
+.enlacesuperior, .enlacesuperio:link, .enlacesuperior:visited{
+    color: white;
+}
+
+.button-pag{
+    display:inline-block;
+    padding:0.7em 1em 0.7em 1em;
+    border-radius:10px;
+    background: rgba(0,0,0, 0.2);
+}
+/* End of Links
+-------------------------------------------------------------- */
+
+
+/* = Banner
+-------------------------------------------------------------- */
+@media(max-width:767px){
+	#logo{
+		float:left;
+		width:80%;
+		text-align: left;
+		overflow: hidden;
+	}
+
+	#logo img{
+		max-width:80px;
+		max-height:80px;
+	}
+
+	#logo h2{
+		font-size:1em;
+	}
+}
+
+@media(min-width:768px){
+    #logo img{
+		margin: 5% auto;
+		max-width:200px;
+		max-height:200px;
+    }
+}
+
+/* End of Banner
+-------------------------------------------------------------- */
+
+
+/* = Head Menu
+-------------------------------------------------------------- */
+    
+#open-menu{
+    float:right;
+	width:18%;
+    font-size:2em;
+}
+
+@media(min-width:768px){
+    #open-menu{
+		display:none;
+    }
+}
+
+#menu-principal{
+	clear: both;
+	display: block;
+	overflow: hidden;
+    text-transform: uppercase;
+    margin:30px 0;
+    padding:0;
+}
+
+#menu-principal ul{
+    margin:0;
+    padding:0;
+}
+
+#menu-principal li{
+    padding-top:0.5em;
+}
+
+#menu-principal ul ul{
+    display: none;
+    padding-right:0.2em;
+    font-size:0.9em;
+    text-transform: none;
+}
+
+
+/* End of Head Menu
+-------------------------------------------------------------- */
+
+/* = Sidebar
+-------------------------------------------------------------- */
+#barra-lateral{
+    overflow: hidden;
+    color:white;
+    z-index:100;
+}
+
+#barra-lateral li{
+    list-style:none;
+}
+
+#widget-sidebar{
+	display: none;
+}
+
+@media(min-width:767px){
+	#widget-sidebar{
+		display: block;
+		clear:both;
+		margin-top:1em;
+	}
+
+	#widget-footer{
+		display: none;
+	}
+}
+
+.top-widget{
+	margin: 10px 0 20px 0;
+	padding: 0 0 20px 0;
+}
+
+.xoxo{
+    margin:0;
+    padding:0;
+}
+
+.xoxo li{
+    list-style:none;
+}
+
+.xoxo ul{
+    margin: 0;
+    padding: 0;
+}
+
+.search-form .search-submit, .search-form .screen-reader-text{
+    display:none;
+}
+
+/* End of Sidebar
+-------------------------------------------------------------- */
+
+
+/* = Responsive Design Layout
+-------------------------------------------------------------- */
+#contenidos, #contenidos-gallery{
+    clear:both;
+    padding:1em 1em 1em 0.5em;
+    z-index:100;
+}
+
+#end-contenidos{
+    clear:both;
+    float:right;
+    margin-top:2em;
+    display:inline-block;
+}
+
+.page-header{
+	clear: both;
+	display: block;
+	padding: 1em 1.5em;
+}
+
+@media(max-width:767px){
+    
+    #barra-lateral{
+		position: static;
+        margin-top:50px;
+		text-align:right;
+		padding: 0.5em;
+    }
+    
+    #barra-lateral-trigger{
+		display:none;
+    }
+    
+    #barra-superior{
+        position:absolute;
+        height:50px;
+        top:0;
+        right:0;
+        left:0;
+    }
+    
+    .caja-superior{
+        display:inline;
+        float:left;
+        width:20%;
+        height:50px;
+    }
+    
+    .caja-centrado{
+        width:100%;
+        margin-top:17px;
+        text-align:center;
+        color:inherit;
+        font-size:1em;
+    }
+    
+    #contenidos, #contenidos-gallery{
+		margin-top:20px;
+		overflow:hidden;
+		min-height:600px;
+    }
+}
+
+
+@media(min-width:768px){
+    #open-menu{
+		display:none;
+    }
+    
+    #barra-lateral-trigger{
+		display:none;
+		position:fixed;
+        width:2em;
+        top:0;
+        bottom:0;
+        left:0;
+        padding:10px;
+    }
+    
+    #barra-lateral-trigger span{
+		position:absolute;
+		top:48%;
+		left:1em;
+		bottom:48%;
+		padding:0;
+    }
+    
+    #barra-lateral{
+        position:absolute;
+        width:200px;
+        top:0;
+        left:0;
+        padding:10px;
+    }
+    
+    #barra-superior{
+        position:absolute;
+        height:80px;
+        top:0;
+        right:0;
+    }
+    
+    #contenidos{
+		padding-top:120px;
+		padding-left:250px;
+		padding-right:1em;
+		font-size:0.9em;
+		min-height:600px;
+    }
+    
+    #contenidos-gallery{
+	padding:120px 1em 1em 1em;
+    }
+    
+    .caja-superior{
+        display:inline;
+        float:left;
+        width:80px;
+        height:80px;
+    }
+    
+    .caja-centrado{
+        width:100%;
+        margin-top:20px;
+        text-align:center;
+        color:inherit;
+    }
+    
+    .caja-centrado i{
+        font-size:2.5em;
+    }
+}
+
+.caja-centrado-texto{
+        display:none;
+        font-size:0.8em;
+    }
+    
+    .caja-centrado:hover .caja-centrado-texto{
+        display:block;
+    }
+
+/* End of Responsive Design Layout
+-------------------------------------------------------------- */
+
+/* = Post, article
+-------------------------------------------------------------- */
+.sticky{
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sticky a, .sticky a:visited{
+    color: #f1c40f;;
+}
+
+.post-article{
+    max-width:1100px;
+    margin:0 auto;
+    overflow:hidden;
+	overflow: hidden;
+}
+
+#post-imagen{
+    text-align:center;
+}
+
+.post-article img{
+    max-width:100%;
+}
+
+.post-index{
+    margin-top:5%;
+    padding:10% 1% 10% 1%;
+    overflow: hidden;
+}
+
+.post-index:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@media(min-width:361px){
+    .post-index{
+		float:left;
+		width:46%;
+		padding:1%;
+		margin: 1%;
+    }
+}
+
+@media(min-width:968px){
+    .post-index{
+		float:left;
+		width:28%;
+		padding:1%;
+		margin: 1%;
+	}    
+}
+
+@media(min-width:1200px){
+    .post-index{
+		float:left;
+		width:20%;
+		padding:1%;
+		margin. 1%;
+    }
+}
+
+@media(min-width:1400px){
+    .post-index{
+		float:left;
+		width:16%;
+		padding:1%;
+    }
+}
+
+.post-index-thumbnail{
+    width:100%;
+	height: 100%;
+}
+
+.post-mas,
+.post-meta{
+    clear:both;
+	font-size:0.9em;
+	margin: 20px 0;
+}
+
+.post-meta span{
+	display: block;
+	clear: block;
+	margin: 5px 0;
+}
+
+.post-mas-izq{
+    float:left;
+    display:inline-block;
+    width:48%;
+    margin:0;
+    text-align:left;
+}
+
+.post-mas-der{
+    float:right;
+    display:inline-block;
+    width:48%;
+    margin:0;
+    text-align:right;
+}
+
+.post-meta-content{
+	display:inline;
+	padding-right:3em;
+}
+
+.post-edit{
+	clear:both;
+    float:right;
+    width:30%;
+    padding:1em 0 1em 0;
+    text-align:right;
+}
+
+.post-title-gallery{
+    text-align:center;
+    font-size:3em;
+}
+
+.entry-content{
+    clear:both;
+	text-align: justify;
+}
+
+/* End of post, article
+-------------------------------------------------------------- */
+
+/* = Galleries
+-------------------------------------------------------------- */
+.gallery{
+   clear:both;
+   margin:0 auto;
+	overflow:hidden;
+}
+
+.gallery-columns-1 .gallery-item { width: 100%;}
+.gallery-columns-2 .gallery-item { width: 50%;}
+.gallery-columns-3 .gallery-item { width: 33.3%;}
+.gallery-columns-4 .gallery-item { width: 25%;}
+.gallery-columns-5 .gallery-item { width: 20%;}
+.gallery-columns-6 .gallery-item { width: 16.66%;}
+.gallery-columns-7 .gallery-item { width: 14.2%;}
+.gallery-columns-8 .gallery-item { width: 12.5%;}
+.gallery-columns-9 .gallery-item { width: 11.1%; }
+
+
+    @media(max-width:767px){
+	.gallery img{
+	    width:98%;
+	    max-width:75px;
+	    height:98%;
+	    max-height: 75px;
+	    margin: 0 auto;
+	}
+	
+	.gallery-item {
+            float: left;
+			margin:0;
+            padding: 10px 0 10px 0;
+            overflow: hidden;
+            text-align:center;
+        }
+        
+	.gallery-caption{
+	    display: none;
+	}
+
+    }
+
+    @media(min-width:768px){
+	.gallery img{
+	    width:98%;
+	    max-width:150px;
+	    height:98%;
+	    max-height: 150px;
+	    margin: 0 auto;
+	}
+	
+        .gallery-item {
+            float: left;
+            height:220px;
+	    margin:0;
+            padding: 20px 0 20px 0;
+            overflow: hidden;
+            text-align:center;
+        }
+	
+	.gallery-caption {
+	    display:inline;
+	    position:relative;
+	    top:0;
+	    text-align: center;
+	    width: 100%;
+	    font-size:0.8em;
+	    font-style: italic;
+	    color:inherit;
+	}
+        
+    }
+
+.attachment-thumbnail{
+    border:1px solid;
+}
+
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+/* End of Galleries
+-------------------------------------------------------------- */
+
+/* = Attachment Image
+-------------------------------------------------------------- */
+.imagenadjunta{
+    text-align:center;
+    max-width:90%;
+    margin:5% auto;
+}
+/* End of Attachment Image
+-------------------------------------------------------------- */
+
+/* = Comments
+-------------------------------------------------------------- */
+#comments{
+    clear:both;
+    padding:3em 0 0 0;
+	max-width:1100px;
+	margin: 0 auto;
+}
+
+.listacomentarios{
+    margin:0;
+    padding:0;
+}
+
+.listacomentarios li{
+    list-style:none;
+    width:90%;
+    display:block;
+}
+
+.comment-author{
+    margin-top:0.3em;
+}
+
+.comment-content{
+    background: rgba(255, 255, 255, 0.5);
+    padding:0.5em;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.reply{
+     background: rgba(255, 255, 255, 0.8);
+		padding:0.5em;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+}
+
+@media(min-width:768px){
+    .comment-content{
+		width:90%;
+		margin: 0 5% 0 5%;
+		padding:0.5em;
+    }
+    
+    .reply{
+		width:90%;
+		margin: 0 5% 1em 5%;
+		padding:0.5em;
+		text-align:right;
+    }
+    
+}
+
+#respond{
+    clear:both;
+}
+
+textarea,
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="url"]{
+    padding:0.4em;
+    background-color:inherit;
+    color:inherit;
+    border:1px solid;
+}
+
+textarea:focus, input:focus{
+    background-color:black;
+    color:white;
+    border:1px solid;
+}
+
+#commentform{
+	background: rgba(0,0,0,0.1);
+	border-radius: 5px;
+	padding: 0.5em;
+}
+
+#commentform label{
+	display: block;
+	padding: 0 0 0 2%;
+}
+
+#commentform input{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#commentform input[type="submit"]{
+	width: 96%;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#commentform textarea{
+	display: block;
+	width: 96%;
+	margin: 0 auto;
+}
+
+@media(min-width:768px){
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url{
+		float: left;
+		width: 33.33%;
+		margin: 0.5em 0 0.5em 0;
+		padding: 0 0 0.5em 0;
+	}
+}
+
+/* End of comments
+-------------------------------------------------------------- */
+
+/* = Social
+-------------------------------------------------------------- */
+#social-icons{
+	clear: both;
+    text-align:center;
+    width:90%;
+    margin:5%;
+}
+
+.social-icon-round{
+    font-size:1.2em;
+    padding:0.3em;
+}
+
+/* End of Social
+-------------------------------------------------------------- */
+
+/* = Page 404
+-------------------------------------------------------------- */
+#search-404{
+	margin: 3% 0 0 0;
+}
+
+/* End of Social
+-------------------------------------------------------------- */
+
+/* = Foot Note Developed by
+-------------------------------------------------------------- */
+@media(max-width:767px){
+    #thefoot{
+		margin-top:20px;
+		overflow:hidden;
+    }
+}
+
+@media(min-width:768px){
+    #thefoot{
+		clear:both;
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-left:250px;
+		padding-right:1em;
+		overflow:hidden;
+    }
+    
+    .pie{
+		float:left;
+		width:46%;
+		margin:1%;
+		padding: 1% 0 1% 0;
+		overflow:hidden;
+    }
+
+	#thefoot-container{
+		max-width: 1100px;
+		margin: 0 auto;
+		overflown: hidden;
+	}
+}
+
+#creadopor{
+    float:right;
+    clear:both;
+    font-size:0.8em;
+    
+}
+/* End of Foot Note
+-------------------------------------------------------------- */

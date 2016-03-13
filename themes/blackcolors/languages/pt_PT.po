@@ -1,0 +1,465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blackcolors\n"
+"POT-Creation-Date: 2015-04-24 11:07+0100\n"
+"PO-Revision-Date: 2015-04-24 11:07+0100\n"
+"Last-Translator: Antonio Sánchez <antonio@antsanchez.com>\n"
+"Language-Team: Antonio Sánchez <antonio@antsanchez.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ops! Essa página não pode ser encontrada."
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que nada foi encontrado neste local. Talvez tente um dos links abaixo "
+"ou uma pesquisa?"
+
+#: archive.php:64 index.php:56
+msgid "See more"
+msgstr "Ver mais"
+
+#: archive.php:93 index.php:84
+msgid "Newer entries"
+msgstr "Entradas mais recentes"
+
+#: archive.php:94 index.php:85
+msgid "Older entries"
+msgstr "Entradas mais antigas"
+
+#: attachment.php:10 page.php:27 page.php:34 single.php:38 single.php:45
+msgid "Edit this"
+msgstr "Editar"
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Uma ideia sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensamentos sobre &ldquo;%2$s&rdquo;"
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr "navegação comentário"
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários mais antigos"
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "comentário mais recente &rarr;"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: functions.php:58
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: functions.php:68
+#, php-format
+msgid "Footer %d"
+msgstr "Footer %d"
+
+#: functions.php:77
+msgid "Menu Sidebar"
+msgstr ""
+
+#: functions.php:87
+msgid "Top Widget Area"
+msgstr ""
+
+#: inc/customizer-options.php:11
+msgid "Blackcolors Fonts"
+msgstr "Blackcolors Fonts"
+
+#: inc/customizer-options.php:104
+msgid "Select your desired font."
+msgstr "Selecione a fonte desejada."
+
+#: inc/customizer-options.php:118
+msgid "Use Cyrillic fonts? "
+msgstr "Use fontes cirílico?"
+
+#: inc/customizer-options.php:132
+msgid "Use Greek fonts? "
+msgstr "Use fontes gregas?"
+
+#: inc/customizer-options.php:146
+msgid "Use Latin fonts? "
+msgstr "Use fontes latino?"
+
+#: inc/customizer-options.php:160
+msgid ""
+"Let me use my own fonts. That will deactivate the theme control over the "
+"fonts"
+msgstr ""
+"Deixe-me usar minhas próprias fontes. Isso irá desativar o controle tema "
+"sobre as fontes"
+
+#: inc/customizer-options.php:173
+msgid "Fixed Bar Background Color"
+msgstr "Barra fixa: cor de fundo"
+
+#: inc/customizer-options.php:185
+msgid "Text Color"
+msgstr "cor do texto"
+
+#: inc/customizer-options.php:197
+msgid "Links Color"
+msgstr "Cor dos links"
+
+#: inc/customizer-options.php:209
+msgid "Links color when mouse is hover"
+msgstr "Cor dos links quando o mouse está em foco"
+
+#: inc/customizer-options.php:221
+msgid "Color for the social icons"
+msgstr "Cor para os ícones sociais"
+
+#: inc/customizer-options.php:233
+msgid "Gallery Background Color"
+msgstr "Galeria: cor de fundo"
+
+#: inc/customizer-options.php:241
+msgid "Blackcolors Layout"
+msgstr "Blackcolors Layout"
+
+#: inc/customizer-options.php:242
+msgid "Change the main elements of the layout"
+msgstr "Mudar os principais elementos do layout"
+
+#: inc/customizer-options.php:253
+msgid "Hide Fixed bar? "
+msgstr "Esconder barra fixa?"
+
+#: inc/customizer-options.php:267
+msgid "Show color boxes? "
+msgstr "Mostrar caixas de cor?"
+
+#: inc/customizer-options.php:279 inc/customizer-options.php:693
+msgid "Right"
+msgstr "Direito"
+
+#: inc/customizer-options.php:280 inc/customizer-options.php:694
+msgid "Left"
+msgstr "Esquerda"
+
+#: inc/customizer-options.php:281 inc/customizer-options.php:695
+msgid "Center"
+msgstr "Centro"
+
+#: inc/customizer-options.php:284
+msgid "Text align in Fixed Bar"
+msgstr "Alinhar o texto em barra fixa"
+
+#: inc/customizer-options.php:295
+msgid "Blackcolors 404"
+msgstr "Blackcolors 404"
+
+#: inc/customizer-options.php:296
+msgid "Customize your 404 Error page"
+msgstr "Personalize a sua página de erro 404"
+
+#: inc/customizer-options.php:307
+msgid "Write your custom 404 error message:"
+msgstr "Escreva sua mensagem de erro 404 personalizada:"
+
+#: inc/customizer-options.php:321
+msgid "Show search form in 404 error page?"
+msgstr "Mostrar formulário de busca na página de erro 404?"
+
+#: inc/customizer-options.php:330
+msgid "Blackcolors Boxes"
+msgstr "Blackcolors Boxes"
+
+#: inc/customizer-options.php:331
+msgid ""
+"Change the url, text and icons of every color box.<br>For the icons, just go "
+"to <a href=\"http://fortawesome.github.io/Font-Awesome/icons/\" target="
+"\"blackcolors_blank\">Fontawesome Icons</a>, select and copy in the "
+"respective textbox the name of the icons. For instance, to add the facebook "
+"icon, copy \"fa-facebook\""
+msgstr ""
+"Alterar a URL, texto e ícones de cada caixa de cor <br> Para os ícones, "
+"basta ir ao <a href=\"http://fortawesome.github.io/Font-Awesome/icons/\" "
+"target=\"_blank\">Fontawesome Icons</a>, selecionar e copiar na respectiva "
+"caixa de texto o nome dos ícones. Por exemplo, para adicionar o ícone do "
+"facebook, copiar  \"fa-facebook\" "
+
+#: inc/customizer-options.php:344
+msgid "Text on Box 1: "
+msgstr "Texto na Box 1:"
+
+#: inc/customizer-options.php:357
+msgid "URL on Box 1: "
+msgstr "URL na Caixa 1:"
+
+#: inc/customizer-options.php:370
+msgid "Icon on Box 1: "
+msgstr "Ícone na Caixa 1:"
+
+#: inc/customizer-options.php:385
+msgid "Text on Box 2: "
+msgstr "Texto na Box 2:"
+
+#: inc/customizer-options.php:398
+msgid "URL on Box 2: "
+msgstr "URL na Caixa 2:"
+
+#: inc/customizer-options.php:411
+msgid "Icon on Box 2: "
+msgstr "Ícone na Caixa 2:"
+
+#: inc/customizer-options.php:426
+msgid "Text on Box 3: "
+msgstr "Texto na Box 3:"
+
+#: inc/customizer-options.php:439
+msgid "URL on Box 3: "
+msgstr "URL na Caixa 3:"
+
+#: inc/customizer-options.php:452
+msgid "Icon on Box 3: "
+msgstr "Ícone na Caixa 3:"
+
+#: inc/customizer-options.php:467
+msgid "Text on Box 4: "
+msgstr "Texto na Box 4:"
+
+#: inc/customizer-options.php:480
+msgid "URL on Box 4: "
+msgstr "URL na Caixa 4:"
+
+#: inc/customizer-options.php:493
+msgid "Icon on Box 4: "
+msgstr "Ícone na Caixa 4:"
+
+#: inc/customizer-options.php:508
+msgid "Text on Box 5: "
+msgstr "Texto na Box 5:"
+
+#: inc/customizer-options.php:521
+msgid "URL on Box 5: "
+msgstr "URL na Caixa 5:"
+
+#: inc/customizer-options.php:534
+msgid "Icon on Box 5: "
+msgstr "Ícone na Caixa 5:"
+
+#: inc/customizer-options.php:543
+msgid "Blackcolors Social Icons"
+msgstr "Blackcolors Social Icons"
+
+#: inc/customizer-options.php:544
+msgid ""
+"Fill in the fields you wish to show with his correspondent url. For "
+"instance, for Twitter: https://twitter.com/your_username"
+msgstr ""
+"Preencha os campos que deseja mostrar com o seu url correspondente. Por "
+"exemplo, no Twitter: https://twitter.com/your_username"
+
+#: inc/customizer-options.php:588
+msgid "Blackcolors SEO"
+msgstr "Blackcolors SEO"
+
+#: inc/customizer-options.php:598
+msgid "Use Minified Scripts? "
+msgstr "Use Minified Scripts? "
+
+#: inc/extras.php:42
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: inc/template-tags.php:139 inc/template-tags.php:141
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:143
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:145
+#, php-format
+msgid "Year: %s"
+msgstr "Ano: %s"
+
+#: inc/template-tags.php:145
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Month: %s"
+msgstr "mês: %s"
+
+#: inc/template-tags.php:147
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Day: %s"
+msgstr "Dia: %s"
+
+#: inc/template-tags.php:149
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:152
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:154
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: inc/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:171
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:175
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s."
+
+#: inc/template-tags.php:177
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:252 inc/template-tags.php:254
+#, php-format
+msgid "%1$s for %2$s."
+msgstr "%1$s for %2$s."
+
+#: single.php:65
+msgid ", "
+msgstr ","
+
+#: single.php:67
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Postado em %1$s"
+
+#~ msgid "Hide search form in fixed bar?"
+#~ msgstr "Ocultar formulário de busca na barra fixa?"
+
+#~ msgid "Comments"
+#~ msgstr "Comentários"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Deixar uma resposta"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Deixe uma resposta para %s"
+
+#~ msgid "Cancel Reply"
+#~ msgstr "Cancelar a resposta"
+
+#~ msgid "Post Comment"
+#~ msgstr "Publicar comentário"
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+#~ msgstr ""
+#~ "Você deve estar <a href=\"%s\">llogado</a> para postar um comentário."
+
+#~ msgid ""
+#~ "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
+#~ "of this account\">Log out?</a>"
+#~ msgstr ""
+#~ "Logado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
+#~ "of this account\">Sair?</a>"
+
+#~ msgid "Your email address will not be published."
+#~ msgstr "Seu endereço de email não será publicado."
+
+#~ msgid ""
+#~ "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+#~ "tags and attributes: %s"
+#~ msgstr ""
+#~ "Você pode usar estas <abbr title=\"HyperText Markup Language\">HTML</"
+#~ "abbr> tags e atributos: %s"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Show  frontal page? "
+#~ msgstr "Mostrar página frontal ?"
+
+#~ msgid "Remove Credit Link from footer? "
+#~ msgstr "Remover Credit link de rodapé?"
+
+#~ msgid ""
+#~ "Hide WP Bar? It will reduce the number of loaded scripts and stylesheets"
+#~ msgstr ""
+#~ "Esconder WP Bar? Isso irá reduzir o número de scripts carregados e folhas "
+#~ "de estilo"
+
+#~ msgid "for WordPress by "
+#~ msgstr "for WordPress by "

@@ -1,0 +1,312 @@
+/*
+Theme Name: blackcolors
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * 1.0 Reset
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.bypostauthor, .fecha{
+    float:right;
+    margin:0 0.5em 0 0;
+}
+
+.alignnone {
+    margin: 5px 0px 20px 20px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignnone {
+    margin: 5px 0px 20px 20px;
+}
+
+.wp-caption.alignnone{
+    clear:both;
+    margin: 5px 0px 20px 20px;
+}
+
+blockquote{
+    padding:2em 0.25em 0.25em 0.25em;
+}
+
+cite{
+    margin-right:10%;
+}
+/* End of WordPress Core
+-------------------------------------------------------------- */
+
+/* Main elements
+-------------------------------------------------------------- */
+#up_buttom{
+    left:1em;
+	right: auto;
+	
+}
+
+/* = Banner
+-------------------------------------------------------------- */
+@media(max-width:767px){
+	#logo{
+		float:right;
+		text-align: right;
+	}
+}
+
+/* = Head Menu
+-------------------------------------------------------------- */
+#open-menu{
+    float:left;
+}
+
+#menu-principal ul ul{
+    padding-left:0.2em;
+}
+
+/* = Responsive Design Layout
+-------------------------------------------------------------- */
+#contenidos, #contenidos-gallery{
+    padding:1em 0.5em 1em 1em;
+}
+
+#end-contenidos{
+    float:left;
+}
+
+@media(max-width:767px){
+    #barra-lateral{
+		text-align:left;
+    }
+
+    .caja-superior{
+        float:right;
+    }
+}
+
+
+@media(min-width:768px){
+   
+    #barra-lateral-trigger span{
+		left: auto;
+		right:1em;
+    }
+    
+    #barra-lateral{
+        left:auto;
+		right: 0;
+    }
+    
+    #barra-superior{
+        right:auto;
+		left: 0;
+    }
+    
+    #contenidos{
+		padding-right:250px;
+		padding-left:1em;
+    }
+    
+    .caja-superior{
+        float:right;
+    }
+}
+
+/* = Post, article
+-------------------------------------------------------------- */
+
+@media(max-width:360px){
+    .post-index-cuadrado{
+		float:right;
+    }    
+}
+
+@media(min-width:361px){
+    .post-index{
+		float:right;
+    }
+    
+    .post-index-cuadrado{
+		float:right;
+    }
+}
+
+@media(min-width:968px){
+    .post-index{
+		float:right;
+	}    
+}
+
+@media(min-width:1200px){
+    .post-index{
+		float:right;
+    }
+	
+	.post-index-cuadrado{
+		float:right;
+    }
+}
+
+@media(min-width:1400px){
+    .post-index{
+		float:right;
+    }
+
+	.post-index-cuadrado{
+		float:right;
+    }
+}
+
+.post-edit{
+	clear:both;
+    float:left;
+    text-align:left;
+}
+
+
+
+/* = Comments
+-------------------------------------------------------------- */
+#comentarios{
+    clear:both;
+    padding:3em 0 0 0;;
+}
+
+.listacomentarios{
+    margin:0;
+    padding:0;
+}
+
+.listacomentarios li{
+    list-style:none;
+    width:90%;
+    display:block;
+}
+
+.comment-author{
+    margin-top:0.3em;
+}
+
+.comment-content{
+    background: rgba(255, 255, 255, 0.5);
+    padding:0.5em;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.reply{
+     background: rgba(255, 255, 255, 0.8);
+    padding:0.5em;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+@media(min-width:768px){
+    .comment-content{
+	width:90%;
+	margin: 0 5% 0 5%;
+	padding:0.5em;
+    }
+    
+    .reply{
+	width:90%;
+	margin: 0 5% 1em 5%;
+	padding:0.5em;
+	text-align:right;
+    }
+    
+}
+
+#comment{
+    width:96%;
+    margin: 0 auto;
+}
+
+#respond{
+    clear:both;
+}
+
+.campo-comment{
+    display:inline;
+    float:left;
+    width:100px;
+}
+
+.campo-comment-d{
+    display:inline;
+}
+
+textarea, input{
+    padding:0.4em;
+    background-color:inherit;
+    color:inherit;
+    border:1px solid;
+}
+
+input[type="submit"]{
+	border-radius:5px;
+}
+
+textarea:focus, input:focus{
+    background-color:black;
+    color:white;
+    font-family: monospace;
+}
+
+/* End of comments
+-------------------------------------------------------------- */
+
+/* = Social
+-------------------------------------------------------------- */
+#social-icons{
+    text-align:center;
+    width:90%;
+    margin:5%;
+}
+
+.social-icon-round{
+    font-size:1.2em;
+    padding:0.3em;
+}
+
+/* End of Social
+-------------------------------------------------------------- */
+
+/* = Foot Note Developed by
+-------------------------------------------------------------- */
+
+@media(min-width:768px){
+    #thefoot{
+		padding-right:250px;
+		padding-left:1em;
+    }
+    
+    .pie{
+		float:right;
+    }
+}
+
+#creadopor{
+    float:left;
+}
+
+
+/* End of Foot Note
+-------------------------------------------------------------- */

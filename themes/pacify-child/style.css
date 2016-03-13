@@ -1,0 +1,40 @@
+/*
+ Theme Name:   Pacify Child
+ Theme URI:    http://doc.cdsea91.fr/saemf
+ Description:  Pacify is an elegant looking simplistic theme for WordPress. This responsive theme is optimized for viewing on multiple devices. It allows you to select a logo but even if isn't provided, it uses a stylish font to display your website's heading, to add to the aesthetics. It supports the WordPress theme customizer as well tat allows you to change the colors, fonts and more. Pacify has a single sidebar layout with multiple widget support. it uses an minimalistic background pattern for the navigation and footer area. This lightweight theme is ideal for almost all types of personal blogs, beauty and hobbyist blogs, travel blogs, journals, fashion blogs, mommy blogs and more. 
+ Author:       Christophe Violeau
+ Author URI:   http://www.marquedefabrique.net
+ Template:     pacify
+ Version:      0.9
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         black, white, two-columns, right-sidebar, custom-menu, responsive-layout, gray, silver, featured-images, post-formats, sticky-post, custom-background, threaded-comments, black
+ Text Domain:  pacify
+*/
+
+blockquote p {
+    line-height: 1.3em;
+    text-align: justify;
+    font-family: 'Droid Serif', serif;
+    font-size: .9em;
+}
+
+blockquote {
+    quotes: '"' '"';
+    padding: 1em 2em;
+    color: #095A99;
+    
+}
+
+/* 4.0 Forms
+*/
+.username input,
+.password input {
+    height: 30px;
+}
+
+/* 5.2 Menus
+*/
+.children {
+    list-style: disc inside;
+}
