@@ -23,6 +23,16 @@ function user_login_redirect($redirect_to, $request, $user) {
    return home_url();
 }
 
+/* Redirection de l'utilisateur vers la page d'accueil quand il se déconnecte
+  */
+function user_logout_redirect()
+{
+wp_redirect(site_url( '/bienvenue/' ));
+exit;
+}
+
+add_action('wp_logout', 'user_logout_redirect');
+
 /* Fonctions de filtre pour afficher les posts privés lorsqu'un utilisateur
  * connecté
  */
@@ -67,3 +77,4 @@ function removePrivatePrefix($format)
 {
     return '%s';
 }
+
