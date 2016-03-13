@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 mars 2016, 16:00:26
+    Author     : christophe
+*/
+
+#login h1 a {
+    background-image:url("http://doc.cdsea91.fr/wp-content/themes/pacify-child/images/logo-cdsea91.PNG") !important;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 320px !important;
+}

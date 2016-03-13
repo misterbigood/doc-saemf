@@ -78,3 +78,17 @@ function removePrivatePrefix($format)
     return '%s';
 }
 
+/* Améliorations du formulaire de connexion
+ * 
+ */
+add_filter('login_headertitle', create_function(false,"return 'La Doc du SAEMF';"));
+add_filter('login_headerurl', create_function(false,"return 'http://doc.cdsea91.fr/saemf/';"));
+
+/* Personnalisation du logo
+ * 
+ */
+function childtheme_custom_login() {
+ echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/login.css" />';
+}
+
+add_action('login_head', 'childtheme_custom_login');?>
