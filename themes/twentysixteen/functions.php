@@ -405,3 +405,9 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+add_filter("login_redirect", "gkp_subscriber_login_redirect", 10, 3);
+function gkp_subscriber_login_redirect($redirect_to, $request, $user) {
+ 
+ wp_redirect( site_url( '/saemf/' ) );
+}
