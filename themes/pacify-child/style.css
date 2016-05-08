@@ -39,6 +39,10 @@ font-size: 1.2em;
     font-size: .9em;
 }
 
+.entry-content ul {
+    list-style-type: circle;
+}
+
 .entry-footer {
     display:none;
 }
