@@ -53,6 +53,10 @@ font-size: 1.2em;
     background-size: 1.3em;
 }
 
+.byline {
+    display: inline;
+}
+
 
 
 
@@ -67,4 +71,8 @@ font-size: 1.2em;
 */
 .children {
     list-style: disc inside;
+}
+
+.jcl_symbol {
+    float: right;
 }

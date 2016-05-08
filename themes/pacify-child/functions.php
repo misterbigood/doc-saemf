@@ -16,6 +16,16 @@ function not_logged_in_redirection() {
     }
 }
 
+add_action('pre_get_posts','filter_search');
+function filter_Search($query){
+    if( is_admin() || ! $query->is_main_query() ) return;
+    if ($query->is_search) {
+        if( current_user_can('edit_private_posts') ) {
+            $query->set('post_status',array('private','publish'));
+        }
+    }
+}
+
 /* Redirection de l'utilisateur vers la page d'articles lorsqu'il se connecte
 */
 add_filter("login_redirect", "user_login_redirect", 10, 3);
