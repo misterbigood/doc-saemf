@@ -39,7 +39,7 @@ dynamic_sidebar('footer-3');
 <div style="clear:both;"></div>
 
 		<div class="site-info">
-			<?php echo 'Copyright 2015, <a href="http://www.cdsea91.fr">CDSEA 91</a><br>' ?>
+			<?php echo 'Copyright 2015-2016, <a href="http://www.cdsea91.fr">CDSEA 91</a><br>' ?>
 			<?php echo 'Thème par <a href="http://www.marquedefabrique.net/">marquedefabrique</a>, basé sur Pacify par <a href="http://zibeb.com/">Zibeb</a>' ?>
 
 

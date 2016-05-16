@@ -11,6 +11,9 @@
  Tags:         black, white, two-columns, right-sidebar, custom-menu, responsive-layout, gray, silver, featured-images, post-formats, sticky-post, custom-background, threaded-comments, black
  Text Domain:  pacify
 */
+body {
+    background: #ffffff;
+}
 
 blockquote p {
     line-height: 1.3em;

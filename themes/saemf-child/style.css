@@ -1,0 +1,30 @@
+/*
+ Theme Name:   Doc du SAEMF
+ Theme URI:    http://doc.cdsea91.fr/saemf
+ Description:  Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+ Author:       Christophe Violeau
+ Author URI:   http://www.marquedefabrique.net
+ Template:     twentysixteen
+ Version:      0.9
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         black, white, two-columns, right-sidebar, custom-menu, responsive-layout, gray, silver, featured-images, post-formats, sticky-post, custom-background, threaded-comments, black
+ Text Domain:  twentysixteen
+*/
+
+/* 5.2 Menus
+*/
+ul.jcl_widget {
+    list-style: none;
+}
+.children {
+    list-style: disc inside;
+}
+
+.jcl_symbol {
+    float: right;
+}
+
+article.forum .entry-content, article.topic .entry-content {
+    width: 100% !important;
+}
