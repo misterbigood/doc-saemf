@@ -10,9 +10,15 @@ function theme_enqueue_styles() {
  */
 add_action( 'template_redirect', 'not_logged_in_redirection' );
 function not_logged_in_redirection() {
-    if( !is_user_logged_in() && is_home() ) {
-        wp_redirect( site_url( '/bienvenue/' ) );
+    if( !is_user_logged_in() ) {
+        if (is_home()){
+        wp_redirect( home_url('/bienvenue') );
         exit();
+        }
+        if(is_category() || is_archive() || is_tag() || is_author()) {
+            wp_redirect( home_url('/bienvenue') );
+            exit();
+        }
     }
 }
 
@@ -113,3 +119,20 @@ function define_current_theme_file( $template ) {
     return $template;
 }
 add_action('template_include', 'define_current_theme_file', 1000);
+
+/*
+ *  Ajout d'une sidebar spécifique pour les pages (hors connexion)
+ */
+function saemf_sidebar_widget_init()
+{
+    register_sidebar( array(
+		'name'          => __( 'Sidebar page', 'twentysixteen' ),
+		'id'            => 'sidebar-4',
+		'description'   => __( 'Appears on page template', 'twentysixteen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'saemf_sidebar_widget_init' );
